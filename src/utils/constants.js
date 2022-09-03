@@ -17,10 +17,10 @@ export const logo =
 
 export const categories = [
   { name: "New", icon: <HomeIcon /> },
-  { name: "JS Mastery", icon: <CodeIcon /> },
-  { name: "Coding", icon: <CodeIcon /> },
-  { name: "ReactJS", icon: <CodeIcon /> },
-  { name: "NextJS", icon: <CodeIcon /> },
+  { name: "Web 3.0", icon: <CodeIcon /> },
+  { name: "Blockchain", icon: <CodeIcon /> },
+  { name: "ReduxJS", icon: <CodeIcon /> },
+  { name: "GraphQL", icon: <CodeIcon /> },
   { name: "Music", icon: <MusicNoteIcon /> },
   { name: "Education", icon: <SchoolIcon /> },
   { name: "Podcast", icon: <GraphicEqIcon /> },
@@ -32,7 +32,7 @@ export const categories = [
   { name: "Beauty", icon: <FaceRetouchingNaturalIcon /> },
   { name: "Comedy", icon: <TheaterComedyIcon /> },
   { name: "Gym", icon: <FitnessCenterIcon /> },
-  { name: "Crypto", icon: <DeveloperModeIcon /> },
+  { name: "Cryptocurrency", icon: <DeveloperModeIcon /> },
 ];
 
 export const demoThumbnailUrl = "https://i.ibb.co/G2L2Gwp/API-Course.png";
