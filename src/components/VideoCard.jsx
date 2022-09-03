@@ -10,7 +10,7 @@ import {
   demoChannelTitle,
 } from "../utils/constants";
 
-const VideoCard = ({
+let VideoCard = ({
   video: {
     id: { videoId },
     snippet,
@@ -19,7 +19,7 @@ const VideoCard = ({
   return (
     <Card
       sx={{
-        width: { xs: "100%", sm: "358px", md: "310px" },
+        width: { xs: "90vw", sm: "343px", md: "300px" },
         boxShadow: "none",
         borderRadius: 0,
       }}
@@ -28,7 +28,7 @@ const VideoCard = ({
         <CardMedia
           image={snippet?.thumbnails?.high?.url || demoThumbnailUrl}
           alt={snippet?.title}
-          sx={{ width: { xs: "100%", sm: "358px", md: "310px" }, height: 180 }}
+          sx={{ width: { xs: "90vw", sm: "343px", md: "300px" }, height: 180 }}
         />
       </Link>
       <CardContent sx={{ backgroundColor: "#1E1E1E", height: "106px" }}>
